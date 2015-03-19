@@ -9,6 +9,7 @@
 	(function() {
 		//This is where we add routes
 		///partials is where we put our templates
+
 	    angular.module('martians').config(['$routeProvider',
 	        function($routeProvider) {
 	            $routeProvider.
@@ -92,6 +93,14 @@
 
                //Use this format for products
                //Just copy and paste it until all products are added.
+
+
+               // SCOTT TODO:
+               // Find the product images and then push that ontt the products array just like the one below.
+               // You just need to change the image,title,id,and, price. ID should be in order.
+               // Add as many as you would like
+               
+
                products.push({
                   title: "P1",
                   image: "http://placehold.it/800x500",
