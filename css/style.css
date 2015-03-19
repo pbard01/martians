@@ -1,0 +1,28 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-inverse {
+  background-color: #115579;
+  border-color: #115579;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+}
